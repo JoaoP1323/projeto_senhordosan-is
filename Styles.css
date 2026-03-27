@@ -5,3 +5,11 @@
 
     .titulo_secundario{background-color: #2a522a;
     color: white;}
+
+    #layout{
+        display: flex;
+    }
+
+    .rodapé{
+        text-align: center;
+    }

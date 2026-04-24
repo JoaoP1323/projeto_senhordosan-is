@@ -1,15 +1,76 @@
-    #titulo_principal{ background-color: #92751e;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#titulo_principal{ background-color: #92751e;
     color: white;}
 
 
 
-    .titulo_secundario{background-color: #2a522a;
+.titulo_secundario{background-color: #2a522a;
     color: white;}
 
-    #layout{
-        display: flex;
+    
     }
 
-    .rodapé{
+.rodapé{
         text-align: center;
     }
+
+body{
+    /*Topografia CSS*/
+    background-color: rgb(0, 0, 0); /*Cor de fundo*/
+    color: rgb(255, 255, 255); /*Cor da fonte*/
+    font-family: "Roboto", sans-serif; /*Fonte do texto*/
+    font-size: 16px ; /*Tamanho da fonte - px/em/rem*/
+
+}
+
+#layout{
+        font-size: 1em ; /*Herda o tamamho do pai dele (body) com um multiplicador*/
+        display: flex;
+        flex-direction: column; /*Usado para definir a direção dos elementos que são filhos de um display flex*/
+        font-style: normal; /*Estilo da fonte: italic - normal - oblique*/
+        line-height: 30px ; /*Espaçamento entre linhas*/
+        font-weight:400 ; /*Negrito em css 100 a 900 bold e bolder*/
+        text-transform: none; /*Capitalização do texto: uppercase - lowercase - Capitalize*/
+        text-decoration: none  ; /*Sublinhado de texto: underline ou overline, double - dashed - dotted - wavy - none*/
+        word-spacing: 5px; /*Espaçamento entre palavras*/
+        letter-spacing: none; /*Espaçamento entre letras*/
+        text-indent: 20px; /*Espaçamento de paragrafo de primeira linha*/
+        text-align: justify; /*Alinhamento de texto left - right - justify - center*/
+
+        /*border-style: dashed ; /*Estilo da borda: solid, dashed, dotted, double,groove,ridge,inset,outset*
+        border-width: 5px; /*Espessura da borda*
+        border-color: rgb(58, 77, 133); /*Cor da borda*/
+        border: dashed 5px rgb(58, 77, 133); /*Definir estilo, espessura e cor da borda numa mesma linha*/
+        border-top: dotted 10px rgb(211, 200, 111);
+        border-left: dotted 20px rgb(211, 157, 122);
+        border-bottom: solid 15px rgb(233, 121, 233);
+        /*Estilizar lado direito da borda*/
+        border-radius: 50px; /*Arredondar cantos das bordas - px / % */
+
+        margin: 20px; /*Margem do lado de FORA da borda*/
+        margin-left: 20px;/*Margem a esquerda fora da borda*/
+        margin-right: 20px; /*Margem a direita fora da borda*/
+        margin-bottom: 20px; /*Margem de baixo fora da borda*/
+        margin-top: auto; /*Margem de cima fora da borda*/
+        /*padding: 20px 60px 100px 200px; /*Margem DENTRO da borda*/
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+
+}
+
+nav a{
+    text-decoration: none;
+}
+
+
+/*.teste_display{
+    background-color: orange;
+    display: inline-block;
+    width: 200px;*/
+
+}
+
